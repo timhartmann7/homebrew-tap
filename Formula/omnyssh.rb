@@ -1,4 +1,4 @@
-class Omny < Formula
+class Omnyssh < Formula
   desc "TUI SSH dashboard & server manager"
   homepage "https://github.com/timhartmann7/omnyssh"
   version "1.0.0"
