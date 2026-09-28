@@ -1,22 +1,22 @@
 class Omnyssh < Formula
   desc "TUI SSH dashboard & server manager"
   homepage "https://github.com/timhartmann7/omnyssh"
-  version "1.1.2"
+  version "1.1.4"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/timhartmann7/omnyssh/releases/download/v1.1.2/omny-aarch64-apple-darwin.tar.gz"
-      sha256 "dfd54822e2d5d5d5a4a53d694f828d15564ef5d15f9550cbd66d738f52a2781d"
+      url "https://github.com/timhartmann7/omnyssh/releases/download/v1.1.4/omny-aarch64-apple-darwin.tar.gz"
+      sha256 "19dfba02efffc1db04ba30b4aad196b2ae4b18feee92c64678864719132f5f24"
     else
-      url "https://github.com/timhartmann7/omnyssh/releases/download/v1.1.2/omny-x86_64-apple-darwin.tar.gz"
-      sha256 "ede2b21dc8c00549717814aa1d08e6804a4df98f92331ecab4079a4cb3cb44b2"
+      url "https://github.com/timhartmann7/omnyssh/releases/download/v1.1.4/omny-x86_64-apple-darwin.tar.gz"
+      sha256 "cf99d9e1f4ed1431ed52baf0fb82b8cc781a173e3be0f2d407155be38bd59545"
     end
   end
 
   on_linux do
-    url "https://github.com/timhartmann7/omnyssh/releases/download/v1.1.2/omny-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "00b4b0f9c2ddc015ecbec9823a0ca4c68b9e975136caa9fb739e55176d325b14"
+    url "https://github.com/timhartmann7/omnyssh/releases/download/v1.1.4/omny-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "9ae9d799a62148030173652e8812f54d163ade56b443a65a7cb17ab9a9dd1d99"
   end
 
   def install
